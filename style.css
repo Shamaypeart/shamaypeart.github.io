@@ -1,8 +1,9 @@
 body {
-    background: rgb(225, 29, 243);
+    background: rgb(29, 243, 239);
     color: rgb(95, 243, 9);
     padding: 10px;
-    font-family: arial;
+    font-family: cursive;
+
 }
 
 #all-contents {
@@ -12,12 +13,24 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(41, 87, 239);
+    background: rgb(7, 7, 8);
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
     padding: 10px;
+    border-style:dotted;;
+    font-family: cursive;
+    animation:1s glow ease-in-out infinite alternate;
 }
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 90px #fff, 0 0 20px #fff, 0 0 30px #e600cb, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
 
 h1 {
     display: flex;
@@ -45,6 +58,7 @@ a {
 main {
     background: rgb(245, 238, 219);
     display: flex;
+    border-style: dotted;
 }
 
 .sidebar {
