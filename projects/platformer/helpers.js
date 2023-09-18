@@ -368,7 +368,7 @@ function deathOfPlayer() {
   ctx.fillStyle = "black";
   ctx.font = "800% serif";
   ctx.fillText(
-    "You are dead",
+    "Practice 🤫",
     canvas.width / 4,
     canvas.height / 6 + canvas.height / 5,
     (canvas.width / 16) * 14
