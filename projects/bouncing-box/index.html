@@ -8,7 +8,7 @@
 		.box {
 			width: 70px;
 			height: 70px;
-			background-color: teal;
+			background-color: #fd0ed1;
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
@@ -19,6 +19,7 @@
 		}
 		.board{
 			height: 100vh;
+			background-image: url(https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2011/03/thumb_720_450_cherry-blossoms_shutterstock_62627689.jpg);
 		}
 	</style>
 	<!-- 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
@@ -89,7 +90,12 @@
 			function handleBoxClick() {
 				points = points+ 1;
                changeBoxText(points)
-
+				if (speed > 0){
+					speed += 3
+				}
+				else if(speed < 0){
+					speed -= 3
+				}
 			};
 		})();
 	</script>
