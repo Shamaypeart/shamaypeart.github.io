@@ -82,7 +82,7 @@ var init = function (window) {
             }
 
             // TODO 6 : YOUR CODE STARTS HERE /////////////////////
-                if (y<)
+            
 
 
             // YOUR TODO 6 CODE ENDS HERE //////////////////////////
